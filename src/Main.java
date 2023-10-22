@@ -29,12 +29,73 @@ public class Main
 
         for (int e = 0; e < 6; e++)
         {
-            for (int numStars = 0; numStars < 6 - Math.abs(5 - e); numStars++)
+            for (int numStars = 0; numStars < e; numStars++)
             {
                 System.out.print("*");
             }
             System.out.println();
         }
+        System.out.println("\n");
+
+
+        for (int f = 1; f < 6; f++)
+        {
+            for (int numStars = f; numStars <= 5; numStars++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        System.out.println("\n");
+
+        for (int g = 1; g < 6; g++)
+        {
+            for (int numStars = 1; numStars <= 5; numStars++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        System.out.println("\n");
+
+        for (int j = 0; j <= 2; j++)
+        {
+            for (int numStars = 0; numStars <= 30; numStars++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for (int j = 0; j <= 5; j++)
+        {
+            for (int numStars = 0; numStars <= 0; numStars++)
+            {
+                System.out.print("            ");
+                System.out.print("******");
+            }
+            System.out.println();
+        }
+        for (int j = 0; j <= 1; j++)
+        {
+            for (int numStars = 0; numStars <= 0; numStars++)
+            {
+                System.out.print("           ");
+                System.out.print("******");
+            }
+            System.out.println();
+        }
+        for (int j = 0; j <= 1; j++)
+        {
+            for (int numStars = 0; numStars <= 0; numStars++)
+            {
+                System.out.print("    ");
+                System.out.print("************");
+            }
+            System.out.println();
+        }
+
+
+
 
     }
 }
